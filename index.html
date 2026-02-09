@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nanjiba Ibnat Farazi | CSE Student Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="hero" id="top">
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">CSE 3rd Year · Still learning, still building</p>
+          <h1>
+            Learning by
+            <span>building</span>
+            and sharing every semester.
+          </h1>
+          <p class="lead">
+            I am Nanjiba Ibnat Farazi, a CSE junior at Military Institute of Science and Technology who is still exploring where I fit best. I like hands-on projects and shipping small features that make campus life
+            easier.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="resume.pdf" target="_blank" rel="noreferrer">See Resume</a>
+            <a class="btn ghost" href="#contact">Let's Talk</a>
+          </div>
+          <div class="hero-meta">
+            
+            <div>
+              <h3>4</h3>
+              <p>Team projects</p>
+            </div>
+            <div>
+              <h3>3.88</h3>
+              <p>CGPA</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card hero-card-photo">
+          <img src="own.jpeg" alt="Nanjiba Ibnat Farazi" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section about" id="about">
+        <div class="section-header">
+          <p class="eyebrow">About</p>
+          <h2>Curious student, steady learner, excited to grow.</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>
+              I enjoy trying a bit of everything: frontend basics, small backend
+              APIs and project demos. Right now I am focusing on core CS
+              fundamentals while learning modern web tooling.
+            </p>
+            <p>
+              Beyond tech, I love traveling, reading, making friends, learning from new environments and people and sharing what I learn with others.
+            </p>
+            <p>
+              I care deeply about human and animal welfare and enjoy contributing to community-focused work whenever I can.
+            </p>
+            <div class="about-tags">
+              <span>Student builder</span>
+              <span>Interactive Sessions</span>
+              <span>Group projects</span>
+              
+            </div>
+          </div>
+          <div class="about-card">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Now: Working on a software development project.</li>
+              <li>Recently completed: Machine Learning course at Military Institute of Science and Technology.</li>
+              <li>Education: B.Sc. CSE · 2023 - 2027 (ongoing).</li>
+              <li>Open to: Internships · Summer 2026.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-header">
+          <p class="eyebrow">Skills</p>
+          <h2>Growing toolkit, built through classes and projects.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <p>C, C++, Python, Java, JavaScript, SQL (MySQL, Oracle), Assembly, HTML5, CSS3</p>
+          </div>
+          <div class="skill-card">
+            <h3>Frameworks & Libraries</h3>
+            <p>ReactJS, NextJS, NodeJS</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools & Platforms</h3>
+            <p>Git, GitHub, Linux, Figma, Proteus, Postman, Arduino IDE</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-header">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected student projects and course builds.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <p class="project-label">Tourist Support</p>
+              <h3>PathTrekker</h3>
+              <p>
+                PathTrekker is a smart tourist guide system designed using Java to provide tourists with personalized travel experiences.
+              </p>
+            </div>
+            <div class="project-bottom">
+              <span>Java · SQL · CSS</span>
+              <a href="https://github.com/nifarazi/Pathtrekker" class="github-link" target="_blank" rel="noreferrer">Show on GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-top">
+              <p class="project-label">Transparency</p>
+              <h3>Shodesh</h3>
+              <p>
+                Shodesh is a transparent, volunteer-driven donation platform that connects donors with verified individuals and foundations across Bangladesh
+              </p>
+            </div>
+            <div class="project-bottom">
+              <span>Next.js · SQL · Web</span>
+              <a href="https://github.com/ashfiatabassum/SHODESH" class="github-link" target="_blank" rel="noreferrer">Show on GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-top">
+              <p class="project-label">Autonomous</p>
+              <h3>Autonomous Pick and Drop Robotic Arm</h3>
+              <p>
+                An Arduino-based autonomous pick-and-place robotic arm with 4-DOF and a stepper-driven horizontal slider that uses an IR sensor to detect objects, place them at a predefined location and return automatically.
+              </p>
+            </div>
+            <div class="project-bottom">
+              <span>Arduino</span>
+              <a href="https://github.com/Zawadur-Rafid/Six_DOF_Autonomous_Pick_and_Drop_Robotic_Arm" class="github-link" target="_blank" rel="noreferrer">Show on GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-top">
+              <p class="project-label">Systems + Web</p>
+              <h3>SlumLink</h3>
+              <p>
+                SLUMLINK is a smart digital platform for urban slum management. It enables household registration, text/voice complaint reporting, event management and real-time dashboards—helping NGOs and authorities deliver services transparently and efficiently.
+              </p>
+            </div>
+            <div class="project-bottom">
+              <span>Node.js · Express · MySQL</span>
+              <a href="https://github.com/nifarazi/SLUMLINK" class="github-link" target="_blank" rel="noreferrer">Show on GitHub</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="section-header">
+          <p class="eyebrow">Experience</p>
+          <h2>Leadership roles and achievements.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>Blessings for Human Foundation</h3>
+              <p>Dhaka, Bangladesh · 2021</p>
+            </div>
+            <p>
+              Team Lead for Project “Warmth” (Winter Clothes Distribution) and
+              Project “Ramadan” (Food for all in the holy month). Managed donation
+              allocation, sponsor coordination and aid distribution.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-role">
+              <h3>Achievements</h3>
+              <p>Academic and volunteer awards</p>
+            </div>
+            <ul>
+              <li>
+                Best Volunteer (individual) and Best Team award for Project
+                “Warmth” · Blessings for Human Foundation.
+              </li>
+              <li>
+                PathTrekker was awarded 2nd runners-up in CSE-220 Object Oriented
+                Programming Language II.
+              </li>
+              <li>
+                Principal’s Achievement Award (Academic Scholarship) · Adamjee
+                Cantonment College.
+              </li>
+              <li>Dean’s List · 2024 · Military Institute of Science and Technology.</li>
+              <li>Academic Scholarship in Level-2 (Term-1).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h2>Open to internships, mentorship and student collaborations.</h2>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <p>
+              Looking for internships, peer mentorship and student projects.
+              I usually respond within a day.
+            </p>
+            <div class="contact-actions">
+              <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=nanjibafarazi%40gmail.com" target="_blank" rel="noreferrer">Email Me</a>
+              <a class="btn ghost" href="https://www.linkedin.com/in/nanjiba-ibnat-farazi/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="btn ghost" href="https://github.com/nifarazi" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    
+
+    <footer class="footer">
+      <p>Designed & built by Nanjiba Ibnat Farazi · 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
